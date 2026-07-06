@@ -305,10 +305,9 @@ Rectangle {
 }}
 
 
-//WORKSPACEMENU, I want it to extend to the right with animation.
+//WORKSPACEMENU, This is the entire workspacemenu, copy from here if you want it.
 PanelWindow {
 	id:wsb
-	// Theme - Defining once to use everywhere Dark/light background & text, including misc colors
 	property color dbg:"#2F2F2F"
 	property color lbg: "#A8A69D"
 	property color dbgt: "#A8A69D"
@@ -414,6 +413,12 @@ Rectangle {
 		}
 	}		
 }
+
+
+
+
+
+
 
 //seperatorL
 
